@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="./css/signin.css">
+</head>
+<body>
+    <div class="signupFrm">
+        <form action="" class="form" id="signupForm">
+            <h1 class="title">Sign up</h1>
+    
+            <div class="inputContainer">
+                <input type="email" class="input" placeholder="a" required>
+                <label for="email" class="label">Email</label>
+            </div>
+           
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="a" required id="password1">
+                <label for="password1" class="label">Password</label>
+            </div>
+    
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="a" required id="password2">
+                <label for="password2" class="label">Confirm Password</label>
+            </div>
+            <input type="checkbox" id="togglePasswords">
+            <label for="togglePasswords">Show Passwords</label>
+              
+            <input type="submit" class="submitBtn" value="Sign up">
+        </form>
+    </div>
+    <div class="login">
+        <p>Already have an account? <a href="./login.html">Login</a></p>
+    <script src="./js/toggle.js"></script>
+</body>
+</html>
