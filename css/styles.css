@@ -13,7 +13,7 @@
 
 /* Custom styles for Sign-up button */
 .btn-primary.custom-signup {
-    background-color: rgb(190, 48, 48);
+    background-color:rgb(187 38 38);
     border-color: #070807;
     color: #FFFFFF;
 }
@@ -23,8 +23,8 @@
     border-color: #090b09;
 }
 .bars{
-   background-color: #447036; 
-}
+   background-color:#447036; 
+ }
 
 .classy{
     background:whitesmoke
@@ -35,7 +35,7 @@
 }
 
 .pricing-header{
-  background-color: #ecedd4 ;
+  background-color:#ecedd4;
 }
 
 .led.display-5{
@@ -62,7 +62,13 @@
 
   .wohoo{
     justify-content: center;
+  } 
+
+  ul.nav-links{
+    color: white;
   }
+
+  
 
 
 
